@@ -1,28 +1,32 @@
 <script setup>
-import PanierPage from '@/pages/panierPage.vue';
+import PanierPage from "@/pages/panierPage.vue";
 </script>
 
 <template>
-   <nav>
-    <h1>Ma Pizzeria</h1>
-    <PanierPage/>
-    <!-- <ul>
-      <li>
-        <RouterLink to="./">Accueil</RouterLink>
-      </li>
-      <li>
-        <RouterLink to="./panier">panier</RouterLink>
-      </li>
-    </ul> -->
+  <h1>M2I Pizza</h1>
+  <nav>
+    <RouterLink to="/">Accueil</RouterLink>
+    <RouterLink to="/admin">Admin</RouterLink>
+    <RouterLink to="/admin/create-pizza">Créer Pizza</RouterLink>
+    <PanierPage />
   </nav>
 </template>
 
 <style scoped>
+h1 {
+  margin: O;
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 16px;
-  background-color: #f8f8f8;
 }
 </style>

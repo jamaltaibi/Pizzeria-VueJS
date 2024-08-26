@@ -8,4 +8,6 @@ import MyNavPizz from "@/components/myNavPizz.vue";
   <router-view />
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

@@ -32,17 +32,6 @@ const addToCart = () => {
 </template>
 
 <style scoped>
-.pizza {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  align-items: center;
-  justify-items: center;
-}
 
 img {
   max-width: 30%;
